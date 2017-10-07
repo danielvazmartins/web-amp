@@ -1,0 +1,12 @@
+{{#if newsList}}
+	<ul>
+		{{#each newsList}}
+			<li>
+				<h2>{{title}}</h2>
+				<hr/>
+				<h3>{{subTitle}}</h3>
+				<div>{{{resumo}}}</div>
+			</li>
+		{{/each}}
+	</ul>
+{{/if}}
